@@ -1,5 +1,8 @@
 package org.leapyearcalendar;
 
+/**
+ * Implements various rule set that a year must pass.
+ */
 public class LeapYearRuleSet {
 
     /**

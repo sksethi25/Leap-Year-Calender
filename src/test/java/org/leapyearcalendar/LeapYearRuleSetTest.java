@@ -3,9 +3,14 @@ package org.leapyearcalendar;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-
+/**
+ * Test class that Implements various functions to test LeapYearRuleSet class
+ */
 class LeapYearRuleSetTest {
 
+    /**
+     * Test to check proper functioning of isDivisibleByFourRule function.
+     */
     @Test
     void isDivisibleByFourRule() {
         LeapYearRuleSet leapYearRuleSet = new LeapYearRuleSet();
@@ -13,6 +18,9 @@ class LeapYearRuleSetTest {
         assertTrue(actual, "Year 2000 is divisible by 4");
     }
 
+    /**
+     * Test to check proper functioning of isDivisibleByHundredAndByFourHundredTooRule function.
+     */
     @Test
     void isDivisibleByHundredAndByFourHundredTooRule() {
         LeapYearRuleSet leapYearRuleSet = new LeapYearRuleSet();
